@@ -1,0 +1,26 @@
+{
+  "name": "mybot",
+  "description": "MyBot recipe",
+  "version": "0.0.1",
+  "author": "Brian Martin <brianm1028@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/brianm1028/mybot/issues"
+  },
+  "dependencies": {
+    "tjbot": "latest"
+  },
+  "main": "mybot.js",
+  "homepage": "https://www.bsmartin.info/mybot",
+  "keywords": [
+    "mybot"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brianm1028/mybot.git"
+  },
+  "scripts": {
+    "start": "node mybot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
